@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-11-14T13:41:25.770Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36 Edg/86.0.622.63" etag="fkacmJxBoUWewwDD0cb5" version="13.9.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-14T16:00:37.399Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36 Edg/86.0.622.63" etag="uqrwDbZewrMLsOu_Ttpc" version="13.9.8" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
     <mxGraphModel dx="1635" dy="902" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="#ffffff" math="0" shadow="0">
       <root>
@@ -21,20 +21,20 @@
         <mxCell id="ux-bb5XQzaTD-5cg93xW-47" value="Gérer amende" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="290" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="ux-bb5XQzaTD-5cg93xW-48" value="Gérer prêt&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ux-bb5XQzaTD-5cg93xW-48" value="Gérer présentoir&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="360" y="400" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="ux-bb5XQzaTD-5cg93xW-49" value="Authentifier" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="560" y="290" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="ux-bb5XQzaTD-5cg93xW-50" value="Acquerir nouveau film&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ux-bb5XQzaTD-5cg93xW-50" value="Acquerir nouveaux film&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="750" y="150" width="140" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="ux-bb5XQzaTD-5cg93xW-51" value="classer film&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="ux-bb5XQzaTD-5cg93xW-51" value="Decider de&amp;nbsp; l&#39;ancienneté des films&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="765" y="490" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="ux-bb5XQzaTD-5cg93xW-57" value="Louer film&amp;nbsp;&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="360" y="530" width="140" height="70" as="geometry" />
+          <mxGeometry x="490" y="470" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="ux-bb5XQzaTD-5cg93xW-59" value="" style="endArrow=classic;html=1;exitX=0.255;exitY=0.898;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ux-bb5XQzaTD-5cg93xW-50">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -127,7 +127,7 @@
         </mxCell>
         <mxCell id="ux-bb5XQzaTD-5cg93xW-78" value="" style="endArrow=classic;html=1;entryX=0.055;entryY=0.611;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="ux-bb5XQzaTD-5cg93xW-57">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="270" y="530" as="sourcePoint" />
+            <mxPoint x="290" y="530" as="sourcePoint" />
             <mxPoint x="320" y="480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
@@ -147,6 +147,15 @@
         </mxCell>
         <mxCell id="ux-bb5XQzaTD-5cg93xW-87" value="Include" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="500" y="305" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ux-bb5XQzaTD-5cg93xW-93" value="Acheter&amp;nbsp; Produit" style="ellipse;whiteSpace=wrap;html=1;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="570" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ux-bb5XQzaTD-5cg93xW-95" value="" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="ux-bb5XQzaTD-5cg93xW-70" target="ux-bb5XQzaTD-5cg93xW-93">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="405" y="620" as="sourcePoint" />
+            <mxPoint x="455" y="570" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
