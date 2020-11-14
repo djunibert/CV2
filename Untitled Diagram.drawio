@@ -1,9 +1,60 @@
-<mxfile host="app.diagrams.net" modified="2020-11-14T02:54:41.623Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36 Edg/86.0.622.63" etag="A_e91sfALcKBmJpxl1Hn" version="13.9.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-11-14T10:16:31.532Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.183 Safari/537.36 Edg/86.0.622.63" etag="qwfapya9QHggjwpwq6GX" version="13.9.8" type="github">
   <diagram name="Page-1" id="e7e014a7-5840-1c2e-5031-d8a46d1fe8dd">
     <mxGraphModel dx="1718" dy="943" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="826" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="ux-bb5XQzaTD-5cg93xW-41" value="" style="html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="100" width="550" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="ux-bb5XQzaTD-5cg93xW-46" value="Traiter Vente" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="140" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ux-bb5XQzaTD-5cg93xW-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ux-bb5XQzaTD-5cg93xW-47" target="ux-bb5XQzaTD-5cg93xW-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ux-bb5XQzaTD-5cg93xW-47" value="Gérer amende" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="290" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ux-bb5XQzaTD-5cg93xW-48" value="Gérer prêt&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="400" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ux-bb5XQzaTD-5cg93xW-49" value="Authentifier" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="290" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ux-bb5XQzaTD-5cg93xW-50" value="Acquerir nouveau film&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="750" y="150" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ux-bb5XQzaTD-5cg93xW-51" value="classer film&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="765" y="490" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ux-bb5XQzaTD-5cg93xW-57" value="Louer film&amp;nbsp;&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="530" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="ux-bb5XQzaTD-5cg93xW-59" value="" style="endArrow=classic;html=1;exitX=0.255;exitY=0.898;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ux-bb5XQzaTD-5cg93xW-50">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="765" y="230" as="sourcePoint" />
+            <mxPoint x="690" y="307" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ux-bb5XQzaTD-5cg93xW-61" value="" style="endArrow=classic;html=1;" edge="1" parent="1" target="ux-bb5XQzaTD-5cg93xW-49">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="770" y="510" as="sourcePoint" />
+            <mxPoint x="820" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ux-bb5XQzaTD-5cg93xW-65" value="" style="endArrow=classic;html=1;exitX=0.766;exitY=0.859;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="ux-bb5XQzaTD-5cg93xW-46" target="ux-bb5XQzaTD-5cg93xW-49">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="490" y="250" as="sourcePoint" />
+            <mxPoint x="540" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ux-bb5XQzaTD-5cg93xW-66" value="" style="endArrow=classic;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="ux-bb5XQzaTD-5cg93xW-48">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="510" as="sourcePoint" />
+            <mxPoint x="610" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
